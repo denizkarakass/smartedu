@@ -11,37 +11,4 @@ exports.getAboutPage =  (req, res) => {
     });
   };
   
- /* 
-exports.getContactPage = (req, res) => {
-    res.status(200).render('contact', {
-      page_name: 'contact',
-    });
-  };
-
  
-
-exports.getCourseSinglePage = (req, res) => {
-    res.status(200).render('course-single', {
-      page_name: 'course-single',
-    });
-  };  
-
-  exports.getDashboardPage = (req, res) => {
-    res.status(200).render('dashboard', {
-      page_name: 'dashboard',
-    });
-  };
-
-  exports.getLoginPage =  (req, res) => {
-    res.status(200).render('login', {
-      page_name: 'login',
-    });
-  };
-
-    exports.getRegisterPage = (req, res) => {
-        res.status(200).render('register', {
-          page_name: 'register',
-        });
-      };
-
-      */
